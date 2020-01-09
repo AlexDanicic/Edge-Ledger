@@ -29,6 +29,26 @@ p {
     overflow: hidden;
 }
 
+.bg-light {
+    background: #f4f4f4;
+    color: #333;
+}
+
+.bg-dark {
+    background: #333;
+    color: #fff;
+}
+
+.list {
+    margin: 0.5rem 0;
+    list-style: none;
+}
+
+.list li {
+    padding: 0.5rem 0;
+    border-bottom: 1px dotted #444;
+}
+
 .text-center {
     text-align: center;
 }
@@ -82,6 +102,18 @@ p {
 
 .py-3 {
     padding: 3rem 0;
+}
+
+.p-1 {
+    padding: 1.5rem;
+}
+
+.p-2 {
+    padding: 2rem;
+}
+
+.p-3 {
+    padding: 3rem;
 }
 
 /* Navbar */
@@ -157,3 +189,15 @@ p {
     margin-bottom: 1rem;
 }
 
+/* Who We Are Section */
+#who {
+    display: flex;
+}
+
+#who div {
+    flex: 1;
+}
+
+#who .who-img {
+    background: url('../img/people.jpg') no-repeat center center/cover;
+}
